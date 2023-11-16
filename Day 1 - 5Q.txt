@@ -1,0 +1,20 @@
+age<-c(23,23,27,27,39,41,47,49,50,52,54,54,56,57,58,58,60,61)
+fat<-c(9.5,26.5,7.8,17.8,31.4,25.9,27.4,27.2,31.2,34.6,42.5,28.8,33.4,30.2,
+       34.1,32.9,41.2,35.7)
+v1<-mean(age)
+v2<-median(age)
+v3<-sd(age)
+v4<-mean(fat)
+v5<-median(fat)
+v6<-sd(fat)
+v1
+v2
+v3
+v4
+v5
+v6
+boxplot(age,fat)
+plot(age,fat)
+x<-rnorm(age,fat)
+qqnorm(x)
+qqline(x,col="blue")
